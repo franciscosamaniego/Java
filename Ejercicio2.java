@@ -6,6 +6,9 @@ public class Ejercicio2 {
 		//Scanner scanner = new Scanner(System.in);
 		//System.out.println("Ingrese un numero del 50 al 100(sino, se saldra del programa)");
 		//int numero = scanner.nextInt();
+		//este for recorre 50 numeros y calcula si es primo o no. Para saber eso, se crea un for que por cada numero, calcula si es divisible por 
+		//todos los numeros anteriores a este. Por cada numero que es divisible, se le suma a un contador y si este supera los dos numeros, el codigo imprime
+		//todos los numeros que son divisores de i. En caso contrario, muestra el numero y dice que es primo
 		for(int numero = 50; numero <= 100; numero++) {
 			int cont = 0;
 				for(int i = 1; i <= numero; i++) {
