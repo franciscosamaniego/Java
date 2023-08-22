@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //java: ejercicios basicos
 //1) Escribir por consola los numeros del 1 al 100 e informar si el mismo es par, imprimir su valor por pantalla.
 //2) Escribir por consola los numeros del 50 al 100 e informar si es un numero primo, sino escribir sus divisores.
