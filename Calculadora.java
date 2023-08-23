@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Calculadora {
 	public static void sumar() {
-		int res = 0;
+		double res = 0.0;
 		//creacion de un array dinamico para luego sumar los numeros ingresados por el usuario
 		ArrayList<Integer> numeros = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class Calculadora {
 	}
 	
 	public static void restar() {
-		int res = -1;
+		double res = -1.0;
 		//creacion de un array dinamico para luego restar los numeros ingresados por el usuario
 		ArrayList<Integer> numeros = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
@@ -45,7 +45,7 @@ public class Calculadora {
 	}
 
 	public static void multiplicar() {
-		int res = -1;
+		double res = -1.0;
 		//creacion de un array dinamico para luego multiplicar los numeros ingresados por el usuario
 		ArrayList<Integer> numeros = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
@@ -66,7 +66,7 @@ public class Calculadora {
 	}
 
 	public static void dividir() {
-		double res = -1;
+		double res = -1.0;
 		//creacion de un array dinamico para luego dividir los numeros ingresados por el usuario
 		ArrayList<Integer> numeros = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
