@@ -9,6 +9,10 @@ public class Ejercicio3 {
 			int cont = 0;
 			System.out.println("Ingrese una palabra (o Exit para salir)");
 			nombre = scanner.next();
+			if(nombre.equalsIgnoreCase("Exit")) {
+				System.out.println("Bye");
+				System.exit(0);
+			}
 			//este programa le pide al usuario ingresar una palabra, y este revisa si es un palindromo. Para hacerlo,
 			//con un for compara cada caracter de izquierda a derecha y, si son iguales , es un palindromo
 			int i = 0;
