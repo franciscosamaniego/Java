@@ -5,8 +5,8 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String nombre = " ";
-		int cont = 0;
 		while(true) {
+			int cont = 0;
 			System.out.println("Ingrese una palabra (o Exit para salir)");
 			nombre = scanner.next();
 			//este programa le pide al usuario ingresar una palabra, y este revisa si es un palindromo. Para hacerlo,
